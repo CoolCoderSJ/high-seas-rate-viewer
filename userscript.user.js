@@ -53,7 +53,7 @@
     
             try {shipyard = document.querySelector("[id$=-content-shipyard]")}
             catch (e) {return;}
-            try {ships = shipyard.querySelector("div").querySelectorAll("div")[2].querySelectorAll("div")[1].querySelector("div").querySelectorAll("div");}
+            try {ships = shipyard.querySelectorAll("div")}
             catch (e) {return;}
             
             ships.forEach(ship => {

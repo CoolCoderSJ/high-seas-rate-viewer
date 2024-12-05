@@ -38,10 +38,12 @@ const addTooltips = () => {
 
         let shipyard, ships;
 
-        try {shipyard = document.querySelector("[id$=-content-shipyard]")}
-        catch (e) {return;}
-        try {ships = shipyard.querySelector("div").querySelectorAll("div")[2].querySelectorAll("div")[1].querySelector("div").querySelectorAll("div");}
-        catch (e) {return;}
+        try {
+            shipyard = document.querySelector("[id$=-content-shipyard]");
+            console.log(shipyard)
+            ships = shipyard.querySelectorAll("div");
+        }
+        catch (e) {console.error(e); return;}
         
         ships.forEach(ship => {
             if (!ship.id) return;
