@@ -20,7 +20,7 @@ This project helps you easily check your doubloon rate for your ships on High Se
 
 1. Install a userscript manager like [Tampermonkey](https://www.tampermonkey.net/) or [Greasemonkey](https://www.greasespot.net/).
 2. Click the link below to install the userscript:
-   - [Install High Seas Doubloon Rate Viewer Userscript](userscript.user.js)
+   - [Install High Seas Doubloon Rate Viewer Userscript](https://github.com/CoolCoderSJ/high-seas-rate-viewer/raw/refs/heads/main/userscript.user.js)
 
 ## Usage
 1. Navigate to the [High Seas Shipyard](https://highseas.hackclub.com/shipyard)
