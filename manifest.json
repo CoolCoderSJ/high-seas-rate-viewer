@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "High Seas Doubloon Rate Viewer",
+    "description": "Easily check your doubloon rate for your ships on high seas.",
+    "version": "1.0",
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "*://highseas.hackclub.com/*"
+    ],
+    "content_scripts": [{
+        "matches": [
+            "*://highseas.hackclub.com/*"
+        ],
+        "js": [
+            "content.js"
+        ]
+    }]
+}
